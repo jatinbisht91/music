@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+.cardHover:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 1s;
+  box-shadow: 0px 2px 15px black;
+  transform: translateY(-5px);
+
+}
+
+.cardHover:hover .overlay {
+  transition: all 1s;
+  opacity: 0.5;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: black;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  overflow: auto;
+  background-color: #252422;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.icon {
+  color: yellow;
+}
+
+
+.fav-row {
+  height: 100px;
+}
+
+.table-row {
+  height: 100px;
+}
+
+.playlistHover:hover {
+  background-color: gray;
+  transition: all 1s;
+}
+
+.playlistCard {
+  color: white;
+  cursor: pointer;
+}
+
+input {
+  text-align: center;
+}
+
+.bg {
+  background-color: #403d39;
+
+}
+
+
+
+.sidebar span:hover .nav,.sidebar li:hover .nav {
+  transition: all 1s;
+  color: white;
+  transform: translateX(5px);
+}
+ .banner{
+  background-color: #ffbf69;
+  height:200px;
+  font-family: 'Playfair Display', serif;
+  font-size: larger;
+  letter-spacing: 1rem;
+ }
+
+.fontFamily{
+  font-family: 'Playfair Display', serif;
+}
+
+ul,li{
+  list-style: none;
+}
