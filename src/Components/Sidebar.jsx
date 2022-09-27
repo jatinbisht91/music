@@ -25,7 +25,7 @@ function Sidebar() {
   }
 
   return (
-    <div className="d-flex flex-column justify-content-center  align-items-center sidebar  col-xs-12 col-sm-12 col-lg-2 flex-sm-row">
+    <div className="d-flex flex-column justify-content-center  align-items-center sidebar  col-2 ">
       
       <div className='container-fluid d-flex justify-content-center py-5'>
          <div className='w-75 ' >
@@ -33,7 +33,7 @@ function Sidebar() {
          </div>
       </div>
       
-      <div className='d-flex flex-sm-row flex-column justify-content-center  align-items-center'>
+      <div className='d-flex  flex-column justify-content-center  align-items-center'>
 
         <span className='py-2'>  <Link to="/" style={{ color: "red" }} className=" d-flex justify-content-start align-items-center text-decoration-none fw-bolder "><AiFillHome /><span className='mx-2 nav'>HOME</span></Link></span>
         <span className='py-2'>  <Link to="/fav" style={{ color: "red" }} className="d-flex justify-content-start align-items-center fw-bolder text-decoration-none "><BsFillHeartFill /><span className='mx-2 nav'>FAVOURITE</span></Link></span>
